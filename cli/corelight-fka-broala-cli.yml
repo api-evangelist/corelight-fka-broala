@@ -1,0 +1,27 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/corelight/corelight-client
+cli:
+  name: corelight-client
+  official: true
+  language: python
+  license: BSD-3-Clause
+  repo: https://github.com/corelight/corelight-client
+  package: pypi:corelight-client
+  install:
+    - method: pip
+      command: pip3 install corelight-client
+    - method: source
+      command: git clone https://github.com/corelight/corelight-client && python3 setup.py install
+  description: >-
+    Command-line client for the Corelight Sensor RESTful API. Talks to a
+    Corelight Sensor/Fleet appliance to inspect and change configuration and
+    run operational commands remotely. The command surface is discovered
+    dynamically from the sensor's API (the client reads the appliance's own
+    command tree), so subcommands mirror the sensor configuration domains
+    rather than a fixed static list.
+  usage: corelight-client [--uri URI] [--user USER] [--password PASSWORD] <command> [<args>]
+notes: >-
+  The Corelight Sensor API itself is not published as a public OpenAPI
+  specification; access is provided with an appliance/account. The CLI is the
+  public, open-source surface for that API.

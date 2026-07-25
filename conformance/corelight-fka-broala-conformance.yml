@@ -1,0 +1,27 @@
+generated: '2026-07-18'
+method: searched
+source: https://corelight.com/trust-and-compliance
+standards:
+  - id: soc2
+    conforms: true
+    evidence: Trust & Compliance portal; SOC 2 audited, reports on request
+  - id: iso-27001
+    conforms: true
+    evidence: Controls mapped to ISO 27001 / ISO 27001:2022
+  - id: nist-csf
+    conforms: true
+    evidence: Controls mapped to NIST Cybersecurity Framework
+  - id: cmmc-level-2
+    conforms: true
+    evidence: Controls mapped to CMMC Level 2
+  - id: nist-sp-800-171
+    conforms: true
+    evidence: Controls mapped to NIST SP 800-171
+  - id: gdpr
+    conforms: true
+    evidence: Data Processing Addendum (DPA) with GDPR assurances published
+notes: >-
+  Compliance-framework conformance captured from the Corelight Trust &
+  Compliance portal. No public OpenAPI is available, so cross-cutting API
+  standards (OAuth2/OIDC, RFC 9457, pagination/idempotency) could not be
+  derived from a spec.

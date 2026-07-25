@@ -1,8 +1,31 @@
 aid: corelight-fka-broala
 name: Corelight (fka Broala)
-description: 'Corelight (fka Broala) is a company surfaced as a portfolio company of insight-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: cybersecurity. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: >-
+  Corelight is a network detection and response (NDR) company founded by the
+  creators of the open-source Zeek (formerly Bro) network security monitor. Its
+  Open NDR platform transforms raw network traffic into high-fidelity security
+  evidence using the Zeek and Suricata engines, giving security teams the data
+  they need for threat detection, investigation, threat hunting, and incident
+  response across on-premises, cloud, and hybrid environments. Corelight Sensor
+  appliances can be configured and operated remotely through a RESTful API; the
+  public, open-source surface for that API is the corelight-client command-line
+  tool (also on PyPI). Corelight maintains an active open-source presence on
+  GitHub, contributing Zeek packages, protocol analyzers, and cloud
+  infrastructure-as-code. The company (formerly Broala) is backed by Insight
+  Partners and publishes a Trust & Compliance program covering SOC 2, ISO 27001,
+  NIST CSF, CMMC Level 2, and NIST SP 800-171.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://corelight.com/hubfs/images/thumbs/Corelight_LinkShare_Thumbnail_V2.png
 url: https://raw.githubusercontent.com/api-evangelist/corelight-fka-broala/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +35,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Cybersecurity
+- Network Detection and Response
+- NDR
+- Network Security
+- Threat Detection
+- Zeek
+- Open Source
+- Network Monitoring
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +55,61 @@ maintainers:
 common:
 - type: Website
   url: https://www.corelight.com/
+- type: Documentation
+  url: https://support.corelight.com/hc/en-us
+- type: APIReference
+  url: https://github.com/corelight/corelight-client
+- type: Support
+  url: https://support.corelight.com/hc/en-us
+- type: Blog
+  url: https://corelight.com/blog
+- type: GitHubOrganization
+  url: https://github.com/corelight
+- type: PrivacyPolicy
+  url: https://corelight.com/legal/privacy
+- type: TermsOfService
+  url: https://corelight.com/terms-of-use/
+- type: StatusPage
+  name: Corelight status page
+  url: https://status.corelight.com
+- type: TrustCenter
+  name: Corelight Trust & Compliance
+  url: https://corelight.com/trust-and-compliance
+- type: Compliance
+  name: Corelight compliance program (SOC 2, ISO 27001:2022, NIST CSF, CMMC L2, NIST SP 800-171)
+  url: https://corelight.com/trust-and-compliance
+- type: Security
+  name: Corelight security vulnerability reporting
+  url: https://corelight.com/support/security
+- type: Packages
+  name: Corelight packages
+  url: packages/corelight-fka-broala-packages.yml
+- type: SDKs
+  name: corelight-client (Python)
+  url: packages/corelight-fka-broala-packages.yml
+- type: CLI
+  name: corelight-client CLI
+  url: cli/corelight-fka-broala-cli.yml
+- type: Lifecycle
+  name: Corelight lifecycle
+  url: lifecycle/corelight-fka-broala-lifecycle.yml
+- type: TrustCenter
+  name: Corelight trust center artifact
+  url: security/corelight-fka-broala-trust-center.yml
+- type: VulnerabilityDisclosure
+  name: Corelight vulnerability disclosure
+  url: security/corelight-fka-broala-vulnerability-disclosure.yml
+- type: DomainSecurity
+  name: Corelight domain security
+  url: security/corelight-fka-broala-domain-security.yml
+- type: Conformance
+  name: Corelight conformance
+  url: conformance/corelight-fka-broala-conformance.yml
+- type: LLMsTxt
+  name: Corelight llms.txt
+  url: llms/corelight-fka-broala-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

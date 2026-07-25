@@ -1,0 +1,17 @@
+generated: '2026-07-18'
+method: searched
+source: https://status.corelight.com
+status_page: https://status.corelight.com
+status_page_provider: Atlassian Statuspage
+sla:
+  note: >-
+    An SLA for Corelight Investigator is published via the Trust & Compliance
+    portal (https://corelight-inc.trustshare.com/).
+versioning:
+  note: >-
+    The public open-source corelight-client library is versioned on PyPI
+    (current 1.5.19). The Corelight Sensor RESTful API is not published as a
+    public OpenAPI spec, so no public API versioning scheme is documented here.
+deprecation:
+  policy_url: null
+  note: No public deprecation/sunset policy located.

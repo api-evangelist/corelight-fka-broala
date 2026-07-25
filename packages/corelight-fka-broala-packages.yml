@@ -1,0 +1,17 @@
+generated: '2026-07-18'
+method: searched
+source: https://pypi.org/project/corelight-client/
+packages:
+  - language: python
+    registry: pypi
+    name: corelight-client
+    url: https://pypi.org/project/corelight-client/
+    install: pip3 install corelight-client
+    version: 1.5.19
+    license: BSD-3-Clause
+    repo: https://github.com/corelight/corelight-client
+    official: true
+    description: >-
+      Official Corelight API client and command-line tool for remotely
+      configuring and controlling Corelight Sensor appliances over their
+      RESTful API. Python (>=3.4), depends on requests.
